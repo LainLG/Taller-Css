@@ -35,7 +35,7 @@ form{
 #cuadro1{
     list-style: none;
     background-color: #f4f4f4;
-    height: 470px;
+    height: 300px;
     width: 60%;
     border: 2px solid  black;
 }
@@ -64,7 +64,8 @@ legend{
     background-color: #8caac0;
     height: 50px;
     width: 100%;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #menu ul {
@@ -118,7 +119,7 @@ legend{
     position:absolute;
     top:100%;
     left:0;
-    background:#eee;
+    background-color: #8caac0;
     padding:0;
    }
    
