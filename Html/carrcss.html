@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/home/yukino/Documentos/Taller_2/Css/usercss.css" rel="stylesheet" type="text/css"">
+
+    <title>Document</title>
+</head>
+<body>
+                      <!-- Header -->
+
+                      <iframe class="header" src="header.html" frameborder="0 " allow="fullscreen"></iframe>
+                      <nav id="menu">
+                        <ul>
+                            <li ><a href="">Punto 1</a>
+                        <ul>
+                            <li><a href="usercss.html">Formulario Regitro html y ccs</a></li>
+                            <li><a href="userbootstrap.html">Formulario Registro bostrap</a></li>
+                            <li><a href="userfundation.html">Formulario Foundation</a></li>
+                        </ul>
+                        </li>
+                            <li><a href="">Punto 2</a>
+                        <ul>
+                          <li><a href="carrcss.html">Formulario Autos Html y css</a></li>
+                          <li><a href="carbootstrap.html">Formulario Autos Bootstrap</li>
+                          <li><a href="carfundation.html">Formulario Autos Foundation</a></li>
+                        </li>
+                        </ul>
+                    </nav>
+                      <div id"formulario">
+              
+                      <form action="maneja_formulario.php" method="post">
+                        <fieldset id="cuadro1">
+                        <legend>Carateristicas Del Auto</legend>
+                        Modelo 
+                    </br>
+                        <input type="text" name="Modelo" value="" maxlength="20"/>
+                    </br>
+                        Año
+                      </br>
+                        <input type="text" name="Año" value="" maxlength="20"/>
+                        <br/>
+                        Caja
+                      </br>
+                        <input type="text" name="Caja" value="" size="30" maxlength="30" />
+                      </br>
+                        Motor
+                      </br>
+                        <input type="text" name="Motor" value="" size="30" maxlength="30" />
+                      </br>
+                        </br>
+                        Tipo De Auto:
+                        <select name="Tipo de Auto">
+                            <option value="00">-Tipo De Auto-</option>
+                            <option value="01">Tipo Urbano.</option>
+                            <option value="02">Tipo Subcompacto.</option>
+                            <option value="03">Tipo Hatchback </option>
+                            <option value="04">Tipo Familiar.</option>
+                            <option value="05">Tipo Sedán</option>
+                            <option value="06">Tipo Berlina</option>
+                            <option value="07">Tipo Descapotable.</option>
+                            <option value="08">Tipo Coupé</option>
+                        </select>
+                    </br>
+                </br>
+                        Marca:
+                        <select name="Marca">
+                            <option value="01">BMW </option>
+                            <option value="02"> Mercedes-Benz</option>
+                            <option value="03">Audi </option>
+                            <option value="04">Nissan</option>
+                            <option value="05">Renault </option>
+                            <option value="06"> Jeep </option>
+                            <option value="07">Hyundai </option>
+                            <option value="08">Toyota </option>
+                            <option value="09">Volkswagen </option>
+                            <option value="10">Honda </option>
+                            <option value="11">Chevrolet</option>
+                        </select>
+                    </br>
+                    </br>
+                        Estado:
+                        <select name="Estado">
+                            <option value="01">Nuevo</option>
+                            <option value="02">Usado</option>
+                            <option value="03">Dañado</option>
+                        </select>
+                    </br>
+                    </br>
+                        Combustible
+                        <select name="Combustible">
+                            <option value="01">Diesel</option>
+                            <option value="02">Gasolina</option>
+                        </select>
+                    </br>
+                    </br>
+                    Detalles:
+                </br>
+                        <textarea >
+
+                        </textarea>
+                    </fieldset>
+                    <fieldset id="cuadro2">
+                    <legend>Informacion Venta</legend>
+                    Fecha de publicacion
+                    <input type="text" name="usuario" value="" maxlength="20" />
+                </br>
+            </br>
+                    Moneda
+                    <select name="Moneda">
+                        <option value="01">Dolar</option>
+                        <option value="02">Euros</option>
+                    </select>
+                </br>
+                </br>
+                    Precio
+                    <input type="password" name="password" value="" maxlength="20" />
+                </br>
+                </br>
+                    Detalles
+                    <input type="password" name="password" value="" maxlength="85" />
+                </br>
+                </br>
+                    <div>
+                      <input  type="submit" value="Enviar" />
+                    </div>
+                    </fieldset>
+                  </form>
+                  </div>
+                            <!-- Footer -->
+                  <iframe class="footer" src="footer.html" frameborder="0"></iframe>
+</body>
+</html>

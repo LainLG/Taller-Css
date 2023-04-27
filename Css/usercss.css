@@ -1,0 +1,157 @@
+
+.header{
+    width: 100% !important;
+    height: 56px !important;
+    line-height: 50px !important;
+    bottom: 0px !important;
+    border: none;
+    padding: 0px !important;
+}
+
+
+
+
+body{
+    background-color: #c3d7e4;;
+    width: 100%;
+    margin: 0px;
+}
+
+
+select,input{
+    list-style: none;
+    background-color: #96acd0;
+    height: 20px;
+    width: 200px;
+    border-bottom: 1px solid  black;
+
+}
+
+
+form{
+    padding-left: 30px;
+}
+
+#cuadro1{
+    list-style: none;
+    background-color: #f4f4f4;
+    height: 470px;
+    width: 60%;
+    border: 2px solid  black;
+}
+
+#cuadro2{
+    list-style: none;
+    background-color: #f4f4f4;
+    height: 300px;
+    width: 60%;
+    border: 2px solid  black;
+}
+
+legend{
+    list-style: none;
+    background-color: #294168;
+    height: 20px;
+    width: 150px;
+    border: 3px solid black;
+    color: #f4f4f4;
+}
+
+#menu{
+    
+    list-style: none;
+    float: left;
+    background-color: #8caac0;
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color: #8caac0;
+    height: 50px;
+    width: 20%;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background-color: #8caac0;
+   }
+
+
+#menu ul ul {
+    
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:250px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+
+
+
+
+/* Footer */
+.footer{
+    width: 100% !important;
+    height: 10% !important;
+    position:fixed !important;
+    left:0px !important;
+    bottom: 0px !important;
+    border: none;
+}
+
